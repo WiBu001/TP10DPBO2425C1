@@ -24,37 +24,37 @@ Fitur utama:
 
 ### 1. Struktur Folder
 
-/project-root
-│
-├─ /config # Penghunbung ke database
-│ └─ database.php
-|
-├─ /models # Model untuk mengakses database
-│ ├─ Agency.php
-│ ├─ Vtuber.php
-│ ├─ Stream.php
-│ └─ Merchandise.php
-│
-├─ /viewmodels # ViewModel untuk menghubungkan Model dengan View
-│ ├─ AgencyViewModel.php
-│ ├─ VtuberViewModel.php
-│ ├─ StreamViewModel.php
-│ └─ MerchandiseViewModel.php
-│
-├─ /views # View untuk menampilkan data dan form
-| ├─ /template # Template header/footer
-| | ├─ header.php
-│ | └─ footer.php
-│ ├─ AgencyList.php
-│ ├─ AgencyForm.php
-│ ├─ VtuberList.php
-│ ├─ VtuberForm.php
-│ ├─ StreamList.php
-│ ├─ StreamForm.php
-│ ├─ MerchandiseList.php
-│ └─ MerchandiseForm.php
-│
-└─ index.php # Entry point utama
+/project-root  
+│  
+├─ /config # Penghunbung ke database  
+│ └─ database.php  
+|  
+├─ /models # Model untuk mengakses database  
+│ ├─ Agency.php  
+│ ├─ Vtuber.php  
+│ ├─ Stream.php  
+│ └─ Merchandise.php  
+│  
+├─ /viewmodels # ViewModel untuk menghubungkan Model dengan View  
+│ ├─ AgencyViewModel.php  
+│ ├─ VtuberViewModel.php  
+│ ├─ StreamViewModel.php  
+│ └─ MerchandiseViewModel.php  
+│  
+├─ /views # View untuk menampilkan data dan form  
+| ├─ /template # Template header/footer  
+| | ├─ header.php  
+│ | └─ footer.php  
+│ ├─ AgencyList.php  
+│ ├─ AgencyForm.php  
+│ ├─ VtuberList.php  
+│ ├─ VtuberForm.php  
+│ ├─ StreamList.php  
+│ ├─ StreamForm.php  
+│ ├─ MerchandiseList.php  
+│ └─ MerchandiseForm.php  
+│  
+└─ index.php # Entry point utama  
 
 ### 2. Alur Program
 1. **Request masuk ke `index.php`**.

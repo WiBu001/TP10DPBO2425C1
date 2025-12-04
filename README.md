@@ -15,7 +15,6 @@ Fitur utama:
 - CRUD Merchandise
 - Dropdown dinamis VTuber dan Agency
 - Form tambah dan edit
-- Konfirmasi hapus melalui JavaScript
 - Tampilan responsif dan konsisten dengan CSS internal
 
 ---
